@@ -6,9 +6,11 @@
       <div class="col-sm-4">
         <div class="card-cocktail">
           <h3><%= link_to c.name, cocktail_path(c.id) %></h3>
-            <% c.doses.each do |dose| %>
-            <p> - <%= dose.ingredient.name %></p>
-            <% end %>
+            <div class="ingredient-list">
+              <% c.doses.each do |dose| %>
+              <p> - <%= dose.ingredient.name %></p>
+              <% end %>
+            </div>
         </div>
       </div>
     <% end %>

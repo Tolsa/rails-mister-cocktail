@@ -2,9 +2,16 @@
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  background-color: rgba(20,20,20,1);
   a {
+    padding: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
     text-decoration: none;
     color: rgba(254, 241, 221, 1);
+    &:hover {
+      box-shadow: 1px 1px 3px rgba(255, 204, 137, 0.7),
+        -1px -1px 3px rgba(255, 204, 137, 0.7)
+      ;
+    }
   }
 }

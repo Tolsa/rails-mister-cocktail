@@ -14,6 +14,13 @@
   width: 400px;
 }
 
+#new_cocktail {
+  width: 400px;
+  .btn-primary {
+    margin-left: 119px;
+  }
+}
+
 #dose_ingredient_id {
   text-align: center;
   color: white;
@@ -25,6 +32,9 @@
   box-shadow: none;
   -webkit-transition: none;
   -o-transition: none;
+  .btn {
+    background: none;
+  }
 }
 
 #dose_description {
