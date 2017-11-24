@@ -4,7 +4,7 @@
   <div class="row">
     <% @cocktails.each do |c|  %>
       <div class="col-sm-4">
-        <div class="card-cocktail">
+        <div class="card-cocktail" style="background-image: url('<%= cl_image_path c.photo, height: 200, width: 340, crop: :fill %>')">
           <h3><%= link_to c.name, cocktail_path(c.id) %></h3>
             <div class="ingredient-list">
               <% c.doses.each do |dose| %>
@@ -15,5 +15,6 @@
       </div>
     <% end %>
   </div>
+
 </div>
 

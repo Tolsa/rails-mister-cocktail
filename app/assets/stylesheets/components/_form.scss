@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items:center;
   margin-top: 40px;
+  margin-top: 71px;
 }
 
 #new_dose {
@@ -17,7 +18,7 @@
 #new_cocktail {
   width: 400px;
   .btn-primary {
-    margin-left: 119px;
+    margin-left: 150px;
   }
 }
 
@@ -56,6 +57,10 @@
   font-weight: bolder;
   border: none;
   margin-left: 159px;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
 }
 
 .form-group {
