@@ -22,11 +22,6 @@ drinks.first[1].each do |drink|
   Ingredient.create(name: stuff)
 end
 
-Cocktail.create(name: "The dude")
-Cocktail.create(name: "Margarita")
-Cocktail.create(name: "Pastis par temps bleu")
-Cocktail.create(name: "Very long island")
+Cocktail.create(name: "Daiquiri red", photo: "image/upload/v1511533074/plmdfwnzbw7caxsvjh0v.jpg")
+Cocktail.create(name: "Orange fury", photo: "image/upload/v1511534662/j4ufmsglh3guqksucome.jpg")
 
-# Ingredient.create(name: "lemon")
-# Ingredient.create(name: "ice")
-# Ingredient.create(name: "mint leaves")
