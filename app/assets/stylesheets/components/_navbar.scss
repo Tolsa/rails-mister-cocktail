@@ -1,0 +1,10 @@
+.navigationbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(20,20,20,1);
+  a {
+    text-decoration: none;
+    color: rgba(254, 241, 221, 1);
+  }
+}

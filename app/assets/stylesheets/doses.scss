@@ -1,0 +1,30 @@
+// Place all the styles related to the doses controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.top-bar {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  a {
+    margin: 10px 0px 0px 30px;
+    text-decoration: none;
+    color: rgba(254, 241, 221, 1);
+  }
+}
+
+
+.ingredient-card {
+  align-items: center;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  color: rgba(240,245,240, 1);
+  a {
+    text-decoration: none;
+    color: rgba(255,204,204, 1);
+  }
+}
+
+

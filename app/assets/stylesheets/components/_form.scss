@@ -1,0 +1,77 @@
+.control-label {
+  color: white !important;
+}
+
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 40px;
+}
+
+#new_dose {
+  width: 400px;
+}
+
+#dose_ingredient_id {
+  text-align: center;
+  color: white;
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+}
+
+#dose_description {
+  text-align: center;
+  color: white;
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: none;
+  margin-left: 159px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cocktail_name {
+  text-align: center;
+  color: white;
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+}
+
+.edit_cocktail {
+  width: 400px;
+  .btn-primary {
+    margin-left: 119px;
+  }
+}
+
